@@ -1,0 +1,44 @@
+body{
+    margin: 0;
+    padding: 0;
+    overflow: hidden;
+    background:grey;  
+}
+
+h1{
+    color:aqua;
+    text-align: center;
+    font-size: 50px;
+    font-family: sans-serif;
+    padding: 10px;
+}
+
+p{
+    color: aqua;
+    text-align: center;
+    font-size: 30px;
+    font-family: sans-serif;
+}
+
+
+marquee{
+    height: 100vh;
+}
+
+#ball{
+    max-width: 300px;
+    animation: animate 4s  linear infinite;
+}
+
+@keyframes animate
+{
+    0%
+    {
+        transform: rotate(0deg);
+    }
+    100%
+    {
+        transform: rotate(360deg);
+    }
+}
+
